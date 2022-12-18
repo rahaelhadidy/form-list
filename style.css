@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+#w-three-school
+{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container
+{
+    width: 40%;
+    margin: auto;
+}
+
+.w-three-school-content
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-content
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo 
+{
+    width: 30%;
+    padding: 20px 0;
+}
+
+.logo img
+{
+    width: 100%;
+}
+
+.logo-content p
+{
+    font-size: 0.8em;
+}
+
+.form
+{
+    width: 90%;
+    padding: 20px 0;
+}
+
+.table
+{
+    width: 100%;
+   border-collapse: collapse;
+}
+
+.table-data-one
+{
+    width: 5%;
+   padding: 24px 0;
+}
+
+.table-data-one i
+{
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.table-data-two
+{
+    width: 90%;
+    padding: 24px 0;
+}
+
+.table-data-two div
+{
+    width: 100%;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.table-data-two input
+{
+    width: 88%;
+    border: none;
+    background-color: transparent;
+}
+
+.table-data-two span
+{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(197, 197, 197);
+    color: rgb(197, 197, 197);
+}
+
+.btn
+{
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+    color: white;
+    font-weight: 600;
+    font-size: 0.75em;
+    background-color: rgb(4, 158, 112);
+    cursor: pointer;
+}
+
+@media all and (max-width:576px)
+{
+    .container
+    {
+        width: 70%;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:768px)
+{
+    .container
+    {
+        width: 50%;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:992px)
+{
+    .container
+    {
+        width: 40%;
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1400px)
+{
+    .container
+    {
+        width: 40%;
+    }
+
+    body
+    {
+        overflow: hidden;
+    }
+      
+}
+
+
+
+
+
+
